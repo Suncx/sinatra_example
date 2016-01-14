@@ -1,0 +1,29 @@
+development:
+  adapter: mysql2
+  database: baye_backend_dev
+  encoding: utf8mb4
+  username: root
+  password: 
+  host: 127.0.0.1
+  pool: 5
+  timeout: 5000
+
+test:
+  adapter: mysql2
+  encoding: utf8mb4
+  database: baye_backend_test
+  username: root
+  password: 
+  host: 127.0.0.1
+  pool: 5
+  timeout: 5000
+
+production:
+  adapter: mysql2
+  database: baye_backend_dev
+  encoding: utf8mb4
+  username: root
+  password: 
+  host: 127.0.0.1
+  pool: 5
+  timeout: 5000
